@@ -1,0 +1,13 @@
+.display {
+  font-size: 2.5rem;
+  font-weight: 300;
+  height: 60px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  color: var(--calc-text-primary);
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
