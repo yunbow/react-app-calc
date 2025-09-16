@@ -1,0 +1,9 @@
+.buttonGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  padding: 20px;
+  background-color: var(--calc-bg-secondary);
+  border-radius: 20px 20px 0 0;
+  box-shadow: var(--shadow-sm);
+}

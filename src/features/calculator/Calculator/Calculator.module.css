@@ -1,0 +1,15 @@
+.calculator {
+  width: 350px;
+  background-color: var(--calc-bg-primary);
+  border-radius: 20px;
+  box-shadow: var(--shadow-xl);
+  overflow: hidden;
+}
+
+@media (max-width: 400px) {
+  .calculator {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 0;
+  }
+}

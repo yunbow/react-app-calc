@@ -1,0 +1,40 @@
+.button {
+  border: none;
+  outline: none;
+  background-color: var(--calc-bg-primary);
+  color: var(--calc-text-primary);
+  font-size: 1.4rem;
+  padding: 20px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background-color: var(--calc-bg-hover);
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+.clear {
+  color: var(--calc-text-clear);
+}
+
+.equals {
+  background-color: var(--calc-accent-green);
+  color: var(--calc-text-primary);
+}
+
+.equals:hover {
+  background-color: var(--calc-accent-green-hover);
+}
+
+.operator {
+  color: var(--calc-accent-green);
+}
+
+.delete {
+  color: var(--calc-text-delete);
+}
